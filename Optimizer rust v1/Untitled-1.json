@@ -1,0 +1,32 @@
+{
+  "TextureSettings": {
+    "StreamingEnabled": true,
+    "StreamingPriority": "performance",
+    "MaxTextureSize": 1024,
+    "MipBias": -1,
+    "PreloadCriticalTextures": true,
+    "CriticalTexturesList": [
+      "ui/icons/player.png",
+      "ui/icons/weapon.png",
+      "environment/terrain/grass_diffuse.png"
+    ],
+    "AsyncLoading": {
+      "Enabled": true,
+      "BatchSize": 4,
+      "DelayBetweenBatchesMs": 50
+    },
+    "Cache": {
+      "EnableDiskCache": true,
+      "CacheFolder": "oxide/data/texture_cache",
+      "MaxCacheSizeMB": 512
+    },
+    "Fallback": {
+      "LowResPlaceholder": true,
+      "PlaceholderColor": "#333333"
+    },
+    "Logging": {
+      "EnableDebugLogs": false,
+      "LogFile": "oxide/logs/texture_loader.log"
+    }
+  }
+}
